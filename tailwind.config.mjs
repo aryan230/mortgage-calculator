@@ -8,8 +8,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lime: "#d7da2f",
+        error: "#d73328",
+        slate: {
+          100: "#F2F7FC",
+          300: "#D5E4F2",
+          500: "#7A93AA",
+          700: "#4D6B88",
+          900: "#193549",
+        },
       },
     },
   },
