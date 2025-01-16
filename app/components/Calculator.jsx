@@ -43,8 +43,8 @@ const calculateMortgage = (amount, years, rate, type) => {
 const MortgageCalculator = () => {
   const [formData, setFormData] = useState({
     amount: "",
-    term: "25",
-    interestRate: "5.25",
+    term: "",
+    interestRate: "",
     type: "",
   });
 
@@ -82,8 +82,8 @@ const MortgageCalculator = () => {
   const handleClearAll = () => {
     setFormData({
       amount: "",
-      term: "25",
-      interestRate: "5.25",
+      term: "",
+      interestRate: "",
       type: "",
     });
     setErrors({});
