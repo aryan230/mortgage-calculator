@@ -158,7 +158,7 @@ const MortgageCalculator = () => {
               )}
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="md:grid grid-cols-2 gap-4">
               <div>
                 <label className="block text-[#4D6B88] mb-2 font-semibold">
                   Mortgage Term
